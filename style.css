@@ -1,0 +1,402 @@
+
+
+.icons-cat {
+    display: flex;
+}
+.id-icon{
+    margin: 5%;
+}
+.id-icon img{
+    height:50vh;
+    border: 1px solid black;
+
+}
+
+.id-icon img:hover{
+    box-shadow: 0.5px 1rem 1rem  black;
+}
+
+.id-icon h4{
+    text-align: center;
+
+
+}
+
+
+ /* -----------------------------------teacher page  ----------------------------------------*/
+
+ .teach-icons {
+    display: flex;
+    margin-left: 17%;
+}
+.teach-id-icon{
+    margin: 5%;
+}
+.teach-id-icon img{
+    height:50vh;
+    border: 1px solid black;
+
+
+
+}
+
+.teach-id-icon h4{
+    text-align: center;
+}
+
+
+/* ----------------------------------------------TEACHER FORM----------------------------  */
+.abc{
+    margin-top: 30px;
+}
+.reg-teach{
+ margin-left: 28%;
+ background-color: whitesmoke;
+ border: 1px solid black;
+ width: 40%;
+ padding: 10px;
+ padding-right: 18px;
+}
+
+.teach-in {
+    width: 95%;
+    height: 5vh;
+    margin-bottom:3%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+   border-right: none;
+   border-bottom: 2px solid black;
+
+
+}
+
+/* ---------------------------------------------teacher template id card -------------------------------- */
+
+.teach-temp{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.t {
+    border: 1px solid black;
+    height: 25vh;
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 35%
+}
+
+/* -----------------------------------template id -------------------------------------------------- */
+
+.id-container {
+    
+    border:2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 580px;
+    height: 630px;
+    color:red;
+    margin-left: 30%;
+    background-color: whitesmoke;
+}
+
+.id-container img{
+    
+    width: 180px;
+    height: 200px;
+    margin-left: 34%;
+    margin-top: -18px;
+    
+    border-radius: 5px;
+
+}
+
+.id-container h2{
+    color: 'red';
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.id-container h2,p{
+    display: inline-block;
+   
+    margin-bottom:-30px ;
+}
+
+
+
+.zoom{
+    
+    border-radius: 30%;
+    border: 1px solid blue;
+    height: 30px;
+    width:450px ;
+    background-color:red;
+    -webkit-print-color-adjust: exact;
+    margin-top: 18px;
+    margin-left: 12%;
+
+}
+
+.id-container h3{
+    text-align: center;
+    margin-top: 1PX;
+    color: brown;
+    font-size: 40px;
+}
+
+.id-container P{
+    color: black;
+    font-weight: bold;
+}
+/* --------------------------------------------------staff id card -------------------------------*/
+@media print {
+    div {
+        width: 100%;
+    }
+}
+.staff-id-container {
+   
+    border:2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 580px;
+    height: 630px;
+    color:darkgreen;
+    margin-left: 30%;
+    background-color: whitesmoke;
+}
+
+.staff-id-container img{
+    
+    width: 180px;
+    height: 200px;
+    margin-left: 34%;
+    margin-top: -18px;
+    
+    border-radius: 5px;
+
+}
+
+.staff-id-container h2{
+    color: 'red';
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.staff-id-container h2,p{
+    display: inline-block;
+    /* padding-bottom: -25px; */
+    margin-bottom:-30px ;
+}
+
+
+
+.staff-zoom{
+    
+    border-radius: 30%;
+    border: 1px solid blue;
+    height: 30px;
+    width:450px ;
+    background-color:darkgreen;
+    -webkit-print-color-adjust: exact;
+    margin-top: 18px;
+    margin-left: 12%;
+
+}
+
+.staff-id-container h3{
+    text-align: center;
+    margin-top: 1PX;
+    color: brown;
+    font-size: 40px;
+}
+
+.staff-id-container P{
+    color: black;
+    font-weight: bold;
+
+}
+
+/* end */
+
+/* ------------------------------------------ ----------- - student id card --     ------------------------ */
+.student-id-container {
+    border:2px solid black;
+    border-radius: 10px;
+    
+    width: 580px;
+    height: 650px;
+    color:blue;
+    margin-left: 30%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    
+    /* position:fixed; */
+}
+
+.student-id-container img{
+    width: 180px;
+    height: 200px;
+    margin-left: 34%;
+    margin-top: -18px;
+    /* border: 5px solid blue; */
+    border-radius: 5px;
+
+}
+
+.student-id-container h2{
+    color: 'red';
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.student-id-container h2,p{
+    display: inline-block;
+    /* padding-bottom: -25px; */
+    margin-bottom:-30px ;
+}
+
+
+
+.student-zoom{
+    border-radius: 30%;
+    border: 1px solid blue;
+    height: 30px;
+    width:450px ;
+    background-color:blue;
+    -webkit-print-color-adjust: exact;
+    margin-top: 8px;
+    margin-left: 12%;
+    
+
+}
+
+.student-id-container h3{
+    text-align: center;
+    margin-top: 1PX;
+    color: brown;
+    font-size: 40px;
+}
+
+.student-id-container P{
+    color: black;
+    font-weight: bold;
+
+}
+
+
+/*  end */
+
+/* login page */
+
+.menu a{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+.menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.menu{
+
+    border: none;
+    margin-left: 75%;
+}
+
+    /* Login styling*/
+ .login-fm{
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.login-fm:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem  ;
+
+}
+.login-fm p{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    width: 93%;
+    margin-top: -5px;
+    margin-left: 12%;
+    color:black;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.login-btn{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+    border-radius: 8px;
+    width: 100%;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-btn:hover{
+    cursor: pointer;
+    background-color:black ;
+    color: white;
+}
+.login-input{
+padding: 18px;
+width: 91%;
+font-weight: bold;
+border:none;
+border-bottom: 2px solid yellow;
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+}
+.login{
+    background-color: #FFC0CB;
+}
+/*  button styling*/
+.gr-btn{
+    padding: 8px;
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    width: 100%;
+}
+.gr-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.form-submit{
+    padding: 8px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+}
+.form-submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
